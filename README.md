@@ -7,4 +7,5 @@ Train with python
 - Funtions
 - Lambda
 - Class
+- Operators
 
