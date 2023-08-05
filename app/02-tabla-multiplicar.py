@@ -13,7 +13,7 @@ def mostrar_tabla_multiplicar(numero):
         print(f'(numero) * {i} = {resultado}')
 
 def main():
-    print('Bienvenido a la table de multiplicar')
+    print('Bienvenido a la tabla de multiplicar')
     numero = obtener_numero()
     mostrar_tabla_multiplicar(numero)
 

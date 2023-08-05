@@ -14,7 +14,7 @@ class Carrito:
         total = 0 
         for item in self.articulos:
             total += item['precio']
-            return total
+        return total
 
 
 # Primero creamos una instancia de carrito 
