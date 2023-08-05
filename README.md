@@ -1,7 +1,7 @@
 # Exercises
 Train with python
 
-## Use
+## Contents
 - app
 - Cache
 - Funtions
