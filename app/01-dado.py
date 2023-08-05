@@ -6,3 +6,6 @@ def obtener_numero_aleatorio():
 if __name__ == '__main__':
     numero = obtener_numero_aleatorio()
     print('El numero aleatorio es:', numero)
+
+
+
