@@ -4,9 +4,8 @@ animals = ['cat', 'dog']
 # start and end are optional
 # get the infex of 'dog' or value error
 
-animals.index('dog')
-animals.index('dog', 0, 3)
-
+print(animals.index('dog'))
+print(animals.index('dog', 0, 3))
 print(animals)
 
 
@@ -16,8 +15,6 @@ print('='*64)
 # an item (number, string, liest, etc) to be added
 # at the end the list
 
-
-'''list.append(item)'''
 animals.append('hen')
 print(animals)
 
