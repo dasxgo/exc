@@ -1,5 +1,5 @@
-# Exercises
-Train with python
+# Exc
+Python code
 
 ## Contents
 - app
