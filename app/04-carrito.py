@@ -16,12 +16,10 @@ class Carrito:
             total += item['precio']
         return total
 
-
 # Primero creamos una instancia de carrito 
 
 mi_carrito = Carrito()
 print(mi_carrito.articulos)
-
 print('='*120)
 
 # Vamos agregar algunos articulos
@@ -29,13 +27,11 @@ mi_carrito.agregar_articulos('Manzanas', 5.00)
 mi_carrito.agregar_articulos('Naranjas', 3.00)
 mi_carrito.agregar_articulos('Manzanas', 4.00)
 print(mi_carrito.articulos)
-
 print('='*120)
 
 # Ahora si queremos remover un articulo
 mi_carrito.remover_articulo('Naranjas')
 print(mi_carrito.articulos)
-
 print('='*120)
 
 # Calcular el total
