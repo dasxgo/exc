@@ -1,5 +1,5 @@
 # Exc
-Python code
+Python and aplications code
 
 ## Contents
 - app
