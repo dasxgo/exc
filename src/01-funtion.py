@@ -1,21 +1,4 @@
-## Country definition
-
-def city(country):
-    if country == 'Colombia':
-        return 'Bogota'
-    elif country == 'Brasil':
-        return 'Sao Paulo'
-    elif country == 'Peru':
-        return 'Lima'
-    elif country == 'Ecuador':
-        return 'Quito'
-    else:
-        return 'Desconocido'
-
-print(f'The city is =>',city('Peru'))
-print('='*64)
-
-# Map funtion
+# Map function
 
 def add_list(a,b):
     return a+b
@@ -46,5 +29,8 @@ print('='*64)
 user_id = ['12121', '56161', '33287', '23244']
 user_name = ['Mick', 'Jhon', 'Tessa', 'Nick']
 user_info = (list(zip(user_name, user_id)))
+user_info2 = (dict(zip(user_name, user_id)))
 print(user_info)
+print(user_info2)
 print('='*64)
+
