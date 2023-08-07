@@ -14,7 +14,7 @@ def calculator():
     elif operation == '/':
         result = num1 / num2
     else: 
-        print('Ivalid operation selected')
+        print('Invalid operation selected')
         return
     print(f'The result is =>', result)
 
