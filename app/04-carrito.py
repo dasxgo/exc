@@ -1,41 +1,41 @@
 class Carrito:
     def __init__(self):
-        self.articulos = []
+        self.products = []
     
-    def agregar_articulos(self, articulo, precio):
-        self.articulos.append({'articulo': articulo, 
-                           'precio': precio})
-    def remover_articulo(self, articulo):
-        for item in self.articulos:
-            if item['articulo'] == articulo:
-                self.articulos.remove(item)
+    def enter_products(self, product, price):
+        self.products.append({'product': product, 
+                           'price': price})
+    def remove_products(self, product):
+        for item in self.products:
+            if item['product'] == product:
+                self.products.remove(item)
                 break
-    def calcular_total(self):
+    def calculate_total(self):
         total = 0 
-        for item in self.articulos:
-            total += item['precio']
+        for item in self.products:
+            total += item['price']
         return total
 
-# Primero creamos una instancia de carrito 
+# First we create a cart instance
 
-mi_carrito = Carrito()
-print(mi_carrito.articulos)
+my_carrito = Carrito()
+print(my_carrito.products)
 print('='*120)
 
 # Vamos agregar algunos articulos
-mi_carrito.agregar_articulos('Manzanas', 5.00)
-mi_carrito.agregar_articulos('Naranjas', 3.00)
-mi_carrito.agregar_articulos('Manzanas', 4.00)
-print(mi_carrito.articulos)
+my_carrito.enter_products('apple', 5.00)
+my_carrito.enter_products('oranges', 3.00)
+my_carrito.enter_products('strawberry', 4.00)
+print(my_carrito.products)
 print('='*120)
 
-# Ahora si queremos remover un articulo
-mi_carrito.remover_articulo('Naranjas')
-print(mi_carrito.articulos)
+# Now if we want to remove an article
+my_carrito.remove_products('oranges')
+print(my_carrito.products)
 print('='*120)
 
-# Calcular el total
-total = mi_carrito.calcular_total()
-print(f'El total del carrito es =>:', total)
+# Calculate the total
+total = my_carrito.calculate_total()
+print(f'The total carrito is =>:',{total})
 
 
