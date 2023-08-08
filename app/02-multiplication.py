@@ -1,21 +1,25 @@
-def obtener_numero():
+def get_number():
     while True:
         try:
-            numero = int(input('ingresa un numero entero:'))
-            return numero
+            number = int(input('Enter an integer number: '))
+            return number
         except ValueError:
-            print('Valor invalid. Ingrese un numero entero valido')
+            print('invalid value Please enter a valid integer')
 
-def mostrar_tabla_multiplicar(numero):
-    print('tabla de multiplicar del {numero}:')
-    for i in range(1,11):
-        resultado = numero * 1
-        print(f'(numero) * {i} = {resultado}')
+def view_multiplication_table(number):
+    print('The multiplication table is {number}:')
+    for i in range(1,50):
+        result = number * i
+        print(f'(number) * {i} = {result}')
 
 def main():
-    print('Bienvenido a la tabla de multiplicar')
-    numero = obtener_numero()
-    mostrar_tabla_multiplicar(numero)
+    print('Welcome to the multiplication table')
+    number = get_number()
+    view_multiplication_table(number)
 
 if __name__ == '__main__':
     main()
+
+
+
+
