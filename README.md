@@ -10,4 +10,5 @@ Python and aplications code
 - Lambda
 - Class
 - Operators
+- Constructor
 
