@@ -1,4 +1,4 @@
-# Exc
+# exc
 Aplications and python code
 
 ## Contents
