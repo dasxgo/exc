@@ -17,7 +17,6 @@ df = pd.DataFrame({
 print('='*64)
 print(df)
 
-
 # Crate pivot table
 
 pivot_table = df.pivot_table(values=['Goals scored','Goals conceded'],
