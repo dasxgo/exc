@@ -7,7 +7,7 @@ class Family:
         self.members = count
     def show(self):
         print("No. Of members is", self.members)
-object = Family(10)
+object = Family(8)
 object.show()
 print('='*64)
 
