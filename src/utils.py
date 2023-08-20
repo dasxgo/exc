@@ -1,21 +1,21 @@
-def mult(a,b):
+# utils.py
+
+def mult(a, b):
     multiplicacion = a * b
     return multiplicacion
 
-print(f'el resultado de la operacion es =>', mult(2,5))
-
-print('='*64)
-
-def suma(a,b):
+def suma(a, b):
     suma = a + b
     return suma
 
-print(suma(8,9))
-
-def resta(a,b):
+def resta(a, b):
     resta = b - a
     return resta
 
-print(f'el resultado de la resta =>', resta(20,10)) 
+if __name__ == '__main__':
+    print(f'el resultado de la operacion es =>', mult(2, 5))
+    print('=' * 64)
+    print(suma(8, 9))
+    print(f'el resultado de la resta =>', resta(20, 10))
 
 

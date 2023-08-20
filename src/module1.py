@@ -10,4 +10,6 @@ def city(country):
     else:
         return 'Desconocido'
 
-print(f'The city is =>',city('Peru'))
+if __name__ == '__main__':
+    print(f'The city is =>',city('Peru'))
+
