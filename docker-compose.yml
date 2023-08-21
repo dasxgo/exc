@@ -1,5 +1,5 @@
 services:
-  web-server:
+  python-app:
     build:
       context: .
       dockerfile: Dockerfile
