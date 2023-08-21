@@ -1,22 +1,22 @@
-# Usar una imagen base de Python
+## Usar una imagen base de Python
 FROM python:3.8
 
-# Establecer el directorio de trabajo dentro del contenedor
+## Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
 
-# Copiar el archivo de requisitos al directorio de trabajo
+## Copiar el archivo de requisitos al directorio de trabajo
 COPY requirements.txt .
 
-# Instalar las dependencias
+## Instalar las dependencias
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copiar el resto de los archivos al directorio de trabajo
+## Copiar el resto de los archivos al directorio de trabajo
 COPY . .
 
-# Exponer el puerto en el que la aplicación va a escuchar
+## Exponer el puerto en el que la aplicación va a escuchar
 EXPOSE 80
 
-# Comando para ejecutar la aplicación cuando se inicie el contenedor
+## Comando para ejecutar la aplicación cuando se inicie el contenedor
 CMD ["python", "app.py"]
 Asegúrate de tener un archivo llamado requirements.txt en el mismo directorio que este Dockerfile. En este archivo, listas las dependencias de Python necesarias para tu aplicación. Además, el ejemplo asume que tu archivo principal de la aplicación se llama app.py, por lo que debes ajustar el nombre si es diferente.
 
