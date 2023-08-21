@@ -1,4 +1,4 @@
-# exc
+# python-app
 Aplications and python code
 
 ## Contents
@@ -14,7 +14,7 @@ Aplications and python code
 - Operators
 - Constructor
 - Docker
-- .gitignore
+
 
 
 
