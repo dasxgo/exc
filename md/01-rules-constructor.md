@@ -1,4 +1,4 @@
-# Rules of Pyton Constructor
+### Rules of Pyton Constructor
 
 - It stats with the "def keyword", like all other functions in Python
 - It is followed by the word "init", wich is prefixed and suffixed with double underscores with a pair of bracketts i.e __init__()
