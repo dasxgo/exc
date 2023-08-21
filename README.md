@@ -4,6 +4,8 @@ Aplications and python code
 ## Contents
 - app
 - Cache
+- package
+- entry point
 - List
 - while and for (Bucle)
 - Funtions
@@ -11,4 +13,8 @@ Aplications and python code
 - Class
 - Operators
 - Constructor
+- Docker
+- .gitignore
+
+
 
