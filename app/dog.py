@@ -9,5 +9,5 @@ class Dog:
         print(f'Race: {self.race}')
         print(f'Color: {self.color}')
 
-dog1 = Dog('Bella', 'Pomerania', 'Beige')
-print(dog1.info())
+my_dog = Dog('Bella', 'Pomerania', 'Beige')
+print(my_dog.info())
